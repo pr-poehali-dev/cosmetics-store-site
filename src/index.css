@@ -99,3 +99,20 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .hover-scale {
+    @apply transition-transform duration-200 hover:scale-105;
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(135deg, #FF1B6B 0%, #45CAFF 100%);
+  }
+  
+  .gradient-text {
+    background: linear-gradient(135deg, #FF1B6B 0%, #45CAFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
