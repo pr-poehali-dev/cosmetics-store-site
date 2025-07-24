@@ -111,10 +111,7 @@ const Index = () => {
                 Красота<br />
                 в деталях
               </h1>
-              <p className="text-lg text-gray-600 mb-12 leading-relaxed max-w-md">
-                Российский бренд премиальной косметики. 
-                Создаем продукты для тех, кто ценит качество и элегантность.
-              </p>
+              <p className="text-lg text-gray-600 mb-12 leading-relaxed max-w-md">Бренд премиальной косметики. Создаем продукты для тех, кто ценит качество и элегантность.</p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-black text-white hover:bg-gray-900 rounded-none px-8 py-4">
                   СМОТРЕТЬ КАТАЛОГ
