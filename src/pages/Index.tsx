@@ -271,6 +271,78 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Brand Story Section */}
+      <section className="py-32 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/20 via-black to-yellow-900/20"></div>
+        <div className="absolute inset-0" style={{
+          backgroundImage: `radial-gradient(circle at 20% 80%, rgba(255, 215, 0, 0.1) 0%, transparent 50%), 
+                           radial-gradient(circle at 80% 20%, rgba(255, 215, 0, 0.1) 0%, transparent 50%)`
+        }}></div>
+        
+        <div className="max-w-6xl mx-auto px-6 relative z-10">
+          <div className="text-center mb-16">
+            <div className="inline-block mb-8">
+              <div className="bg-gradient-to-r from-amber-400 to-yellow-600 bg-clip-text text-transparent text-2xl font-black tracking-wider">
+                ФИЛОСОФИЯ VSHELL
+              </div>
+              <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-yellow-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+          </div>
+
+          <div className="relative group">
+            <div className="absolute -inset-8 bg-gradient-to-r from-amber-400/20 via-yellow-400/20 to-amber-600/20 blur-3xl opacity-60 group-hover:opacity-100 transition-opacity duration-700"></div>
+            
+            <div className="relative bg-gradient-to-br from-gray-900/80 to-black/80 backdrop-blur-2xl border border-amber-400/30 rounded-3xl p-12 shadow-2xl">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent"></div>
+              <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-yellow-600 to-transparent"></div>
+              
+              <div className="flex items-start gap-8">
+                <div className="flex-shrink-0">
+                  <div className="w-20 h-20 bg-gradient-to-br from-amber-400 to-yellow-600 rounded-2xl flex items-center justify-center shadow-2xl">
+                    <div className="text-black text-3xl font-black">V</div>
+                  </div>
+                </div>
+                
+                <div className="flex-1">
+                  <h3 className="text-3xl font-black text-white mb-6 leading-tight">
+                    СИЛА ПРИРОДЫ В КАЖДОЙ КАПЛЕ
+                  </h3>
+                  
+                  <div className="text-lg text-gray-300 leading-relaxed space-y-4">
+                    <p>
+                      <span className="text-amber-400 font-bold">Vshell</span> – это косметика с силами природы, где каждый продукт содержит <span className="text-yellow-400 font-semibold">мощные экстракты</span>, включая гранат, козье молоко и центеллу, для многофункционального ухода за чувствительной кожей.
+                    </p>
+                    
+                    <p>
+                      Наша <span className="text-amber-400 font-bold">уникальная формула</span>, насыщенная антиоксидантами и увлажняющими компонентами, обеспечивает <span className="text-yellow-400 font-semibold">мгновенную гидратацию и защиту</span> от повреждений, позволяя вам наслаждаться здоровой, сияющей кожей каждый день.
+                    </p>
+                    
+                    <p>
+                      Присоединяйтесь к нам в стремлении к <span className="text-amber-400 font-bold">экологии и качеству</span>, выбирая Vshell – <span className="text-yellow-400 font-semibold">разумный выбор</span> для вашей кожи и планеты!
+                    </p>
+                  </div>
+                  
+                  <div className="flex items-center gap-6 mt-8">
+                    <div className="flex items-center gap-2">
+                      <div className="w-3 h-3 bg-gradient-to-r from-amber-400 to-yellow-600 rounded-full animate-pulse"></div>
+                      <span className="text-amber-400 text-sm font-semibold">100% НАТУРАЛЬНО</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-3 h-3 bg-gradient-to-r from-green-400 to-emerald-600 rounded-full animate-pulse"></div>
+                      <span className="text-green-400 text-sm font-semibold">ЭКО-ФОРМУЛА</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-3 h-3 bg-gradient-to-r from-purple-400 to-pink-600 rounded-full animate-pulse"></div>
+                      <span className="text-purple-400 text-sm font-semibold">ПРЕМИУМ КАЧЕСТВО</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Interactive Categories */}
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">
